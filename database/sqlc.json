@@ -1,0 +1,13 @@
+{
+  "version": "1",
+  "packages": [
+    {
+      "path": "db",
+      "engine": "mysql",
+      "emit_interface": true,
+      "emit_result_struct_pointers": true,
+      "schema": "schema/schema.sql",
+      "queries": "query.sql"
+    }
+  ]
+}
