@@ -22,12 +22,9 @@ var userStruct = db.User{
 	Email: "jon@example.com",
 }
 
-// https://gist.github.com/thiagozs/4276432d12c2e5b152ea15b3f8b0012e
+// TODO: this is broken
 
-// // go:generate mockgen -destination=../mocks/mock_querier.go -package=mocks
-// type MockQuerier interface {
-// 	db.Querier
-// }
+// https://gist.github.com/thiagozs/4276432d12c2e5b152ea15b3f8b0012e
 
 func TestCreateUser(t *testing.T) {
 
